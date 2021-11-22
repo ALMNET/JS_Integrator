@@ -1,0 +1,40 @@
+
+.textDerecho{
+  background: rgba(0,0,0,.4);
+  color: #fff;
+
+  text-align: right;
+ }
+.margen{
+    margin-top: 120px;
+    
+
+}
+
+.centro{
+    text-align: center;
+}
+
+.col{
+    background-color: rgba(112, 202, 9, 0.918)!important;
+
+    
+}
+
+
+.colorFooter{
+    background-color: rgb(26, 80, 97);
+    justify-content: space-around !important;
+    padding: 25px;
+    text-align: center;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
